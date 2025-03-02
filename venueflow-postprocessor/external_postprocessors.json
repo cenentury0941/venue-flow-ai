@@ -1,0 +1,39 @@
+{
+    "externalPostprocessors": [
+        {
+            "Name":"venueflow-Postprocessor",
+            "Command":"/opt/networkoptix-metavms/mediaserver/bin/plugins/nxai_plugin/nxai_manager/postprocessors/venueflow-postprocessor-python",
+            "SocketPath":"/tmp/venueflow-postprocessor.sock",
+            "ReceiveInputTensor": false,
+            "Settings": [
+                {
+                    "type": "TextField",
+                    "name": "externalprocessor.camera",
+                    "caption": "Camera Name",
+                    "description": "Name of the Camera",
+                    "defaultValue": ""
+                },
+                {
+		    "type": "SpinBox",
+		    "name": "externalprocessor.warning",
+		    "caption": "Warning Threshold",
+		    "description": "Threshold to show warnings",
+		    "defaultValue": 10,
+		    "minValue": 0,
+		    "maxValue": 300,
+		    "isActive": false
+		},
+                {
+		    "type": "SpinBox",
+		    "name": "externalprocessor.alert",
+		    "caption": "Alert Threshold",
+		    "description": "Threshold to show alerts",
+		    "defaultValue": 20,
+		    "minValue": 0,
+		    "maxValue": 300,
+		    "isActive": false
+		}
+            ]
+        }
+    ]
+}
