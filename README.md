@@ -22,12 +22,11 @@ VenueFlow follows a **three-step process**:
 - **Playback Viewer** – Analyze historical crowd data to optimize venue layouts and evacuation plans.
 - **Predictive Analytics** – Leverage AI for proactive congestion and emergency planning.
 
-## Folder Structure
-__
- |- videos : Videos used with testCamera during development
- |- venueflow-webapp : Source code of the nextJS app
- |- venueflow-postprocessor : Source code of the python postprocessor
- |- models : Onnx model used during development
+## Folder Structure 
+ |- videos : Videos used with testCamera during development  
+ |- venueflow-webapp : Source code of the nextJS app  
+ |- venueflow-postprocessor : Source code of the python postprocessor  
+ |- models : Onnx model used during development  
 
 ## Installation
 Pre-requisties : Nx Meta server and client installed. Nx AI Manager plugin installed and running.
