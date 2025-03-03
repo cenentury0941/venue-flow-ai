@@ -49,10 +49,6 @@ Build all targets:
 cmake --build .
 ```
 
-This will build the default target, which includes the all the example applications that are active in the `CMakeLists.txt`.
-
-It is possible to only run specific examples, refer to the readme files in the subdirectories of those examples for specific instructions.
-
 ## Install the pre/postprocessors
 
 Before installing make sure the target directory is writable.
@@ -62,7 +58,7 @@ sudo chmod 777 /opt/networkoptix-metavms/mediaserver/bin/plugins/nxai_plugin/nxa
 sudo chmod 777 /opt/networkoptix-metavms/mediaserver/bin/plugins/nxai_plugin/nxai_manager/preprocessors/
 ```
 
-To install the generated pre/postprocessor examples to the default pre/postprocessors folder:
+To install the generated postprocessor to the default postprocessors folder:
 
 ```shell
 cmake --build . --target install
