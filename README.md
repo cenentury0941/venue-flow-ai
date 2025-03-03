@@ -1,5 +1,10 @@
 # VenueFlow
 
+## Demo Video
+
+  
+  [![Demo](https://img.youtube.com/vi/DLsRzVeb5dk/0.jpg)](https://www.youtube.com/watch?v=DLsRzVeb5dk)
+  
 ## Overview
 VenueFlow is an **AI-powered crowd flow monitoring system** designed to enhance **safety, efficiency, and situational awareness** in high-traffic venues. Leveraging **real-time video analytics**, VenueFlow detects congestion, generates alerts, and integrates seamlessly with NX Meta and related services.
 
