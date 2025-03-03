@@ -30,14 +30,8 @@ Pre-requisties : Nx Meta server and client installed. Nx AI Manager plugin insta
 3. The Postprocessor also works with the demo object detector, but you can install the YoloV11 model provided if so desired
 4. If setup was successful, assigning the appropriate model and postprocessor will show bounding boxes in NxMeta and start streaming the data to VenueFlow as well
 
-   Known Issues:
+## Known Issues:
    - The API calls to the Server API seem to sporadically return a CORS error. This seems to fix itself over time, no other specific fix is known.
    - If the postprocessor doesn't work, delete the build folder created during it's installation and try again. Check the log files for further details if needed.
      
-
-## Contributing
-Contributions are welcome! Please submit a pull request or open an issue to discuss improvements.
-
-## License
-[MIT License](LICENSE)
 
